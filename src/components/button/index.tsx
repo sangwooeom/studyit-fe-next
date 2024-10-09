@@ -15,15 +15,9 @@ interface ButtonProps {
 export default function Button(props: ButtonProps) {
     const { type } = props;
 
-    console.log(kakaoImg);
-
-    function onClick(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-        props.onClick && props.onClick(event);
-    }
-
     return (
         <button 
-            onClick={onClick}
+            onClick={(event) => props.onClick && props.onClick(event)}
             className={
                 cn(
                     styles.btn,
