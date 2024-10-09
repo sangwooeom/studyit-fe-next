@@ -1,0 +1,27 @@
+.btn {
+    padding: 14px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.primary {
+    color: #FFFFFF;
+    background-color: #175CD3;
+    border: 1px solid #175CD3;
+}
+
+.kakao {
+    background-color: #FFE812;;
+    border: 1px solid #FFE812;
+}
+
+.google {
+    background-color: #FFFFFF;
+    border: 1px solid #E4E7EC;
+}
