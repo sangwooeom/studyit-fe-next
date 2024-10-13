@@ -1,0 +1,103 @@
+.gate {
+    background-color: #F9FAFB;
+    .container {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+        width: 1160px;
+        height: 400px;
+        margin: 0 auto;
+
+        .left {
+            margin-top: 70px;
+            display: grid;
+            row-gap: 40px;
+
+            .description {
+                display: grid;
+                row-gap: 6px;
+
+                h1 {
+                    font-size: 40px;
+                    line-height: 55px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #475467;
+                }
+            }
+
+            .btn {
+                button {
+                    width: 172px;
+                }
+            }
+        }
+    
+        .right {
+            margin-top: 63px;
+        }
+    }
+}
+
+.main {
+    margin-top: 70px;
+
+    .container {
+        display: grid;
+        row-gap: 60px;
+
+        .list {
+            display: grid;
+            row-gap: 24px;
+
+            h3 {
+                margin: 0 103px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+
+            .slider {
+                margin: 0 48px;
+                display: grid;
+                grid-template-columns: 40px auto 40px;
+                column-gap: 15px;
+
+                .btn {
+                    display: grid;
+                    align-items: center;
+
+                    button {
+                        background-color: #FFFFFF;
+                        width: 40px;
+                        height: 40px;
+                        display: grid;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .content {
+                    height: 198px;
+                    display: grid;
+                    grid-auto-flow: column;
+                    column-gap: 20px;
+                    grid-template-columns: auto auto auto;
+
+                    .card {
+                        border-radius: 6px;
+                        padding: 20px;
+                        box-shadow: 0 8px 30px rgba(16, 64, 40, 0.02),
+                        0 8px 24px rgba(16, 64, 40, 0.02),
+                        0 4px 12px rgba(16, 64, 40, 0.02),
+                        0 2px 6px rgba(16, 64, 40, 0.02);
+                    }
+                }
+            }
+        }
+    }
+}
